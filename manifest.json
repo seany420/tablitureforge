@@ -1,12 +1,12 @@
 {
-  "name": "AXELAB — Guitar Trainer",
+  "name": "AXELAB Guitar Lab",
   "short_name": "AXELAB",
-  "description": "Advanced guitar practice app with backing tracks, fretboard, technique lab, and theory.",
+  "description": "Guitar backing tracks with a live scale-following fretboard, playable tab, 33 lessons, theory tools, ear training, tuner and metronome.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "orientation": "portrait-primary",
-  "background_color": "#1a1006",
+  "orientation": "any",
+  "background_color": "#f5f3ef",
   "theme_color": "#b8860b",
   "icons": [
     {
@@ -33,5 +33,9 @@
       "type": "image/png",
       "purpose": "maskable"
     }
+  ],
+  "categories": [
+    "music",
+    "education"
   ]
 }
